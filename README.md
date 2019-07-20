@@ -14,3 +14,9 @@ up-to-date one and really the only scene you need to care about
 	- Detecting the colliders
 	- Stuff like load scenes
 
+# Things that could be fixed if we feel like it :)
+
+- [ ] Change hand sprite so that hand ends higher up (easiest way to fix awkward hand vrist problem)
+- [ ] Flip hand sprite to avoid awkward hand flip problem
+- [ ] Jiggly physics (?)
+
