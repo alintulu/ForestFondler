@@ -11,21 +11,21 @@ public class LoadSceneManager : MonoBehaviour
 
     void Start()
     {
-        //audioSource = GetComponent<AudioSource>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     public void LoadMain()
     {
-        //audioSource.PlayOneShot(onClick, 0.7F);
+        audioSource.PlayOneShot(onClick, 0.7F);
         //(SceneManager.LoadScene("MainScene", LoadSceneMode.Single);
         Debug.Log("Load Main");
     }
 
     public void LoadCredits()
     {
-        //audioSource.PlayOneShot(onClick, 0.7F);
+        audioSource.PlayOneShot(onClick, 0.7F);
         //SceneManager.LoadScene("CreditScene", LoadSceneMode.Single);
-         Debug.Log("Load Credits");
+        Debug.Log("Load Credits");
     }
 
     public void Exit()
