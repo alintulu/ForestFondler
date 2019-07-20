@@ -68,7 +68,9 @@ public class Detachable : Clickable {
 	}
 
 	public override void LetGo (GameObject subject) {
-		// ren.sortingOrder = basesortinglayer;
+		base.LetGo (subject);
+		// go back to start position ... 
+		body.bodyType = RigidbodyType2D.Static;
 	}
 
 }

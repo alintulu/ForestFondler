@@ -20,7 +20,7 @@ public class HandMovement : MonoBehaviour
 
     void Update()
     {
-        moveDirection = new Vector2(Input.GetAxis(inputh), Input.GetAxis(inputv));
+        moveDirection = new Vector2(Input.GetAxis(inputh), -Input.GetAxis(inputv));
         moveDirection *= speed;
 
         characterController.Move(moveDirection * Time.deltaTime);
