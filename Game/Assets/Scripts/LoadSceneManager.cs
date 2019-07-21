@@ -17,14 +17,14 @@ public class LoadSceneManager : MonoBehaviour
     public void LoadMain()
     {
         audioSource.PlayOneShot(onClick, 0.7F);
-        //(SceneManager.LoadScene("MainScene", LoadSceneMode.Single);
+        SceneManager.LoadScene("MainScene", LoadSceneMode.Single);
         Debug.Log("Load Main");
     }
 
     public void LoadCredits()
     {
         audioSource.PlayOneShot(onClick, 0.7F);
-        //SceneManager.LoadScene("CreditScene", LoadSceneMode.Single);
+        SceneManager.LoadScene("CreditScene", LoadSceneMode.Single);
         Debug.Log("Load Credits");
     }
 
