@@ -28,6 +28,15 @@ public class LoadSceneManager : MonoBehaviour
         Debug.Log("Load Credits");
     }
 
+
+    public void LoadIntro()
+    {
+        audioSource.PlayOneShot(onClick, 0.7F);
+        SceneManager.LoadScene("StartScene", LoadSceneMode.Single);
+        Debug.Log("Load Start");
+    }
+
+
     public void Exit()
     {
         //Application.Quit();
