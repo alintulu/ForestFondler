@@ -278,8 +278,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 527399480}
-  - component: {fileID: 527399481}
   - component: {fileID: 527399482}
+  - component: {fileID: 527399481}
   m_Layer: 5
   m_Name: LoadSceneManager
   m_TagString: Untagged
@@ -315,10 +315,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 527399479}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0024b9b3627f55dd99b224dff7707a51, type: 3}
+  m_Script: {fileID: 11500000, guid: 0b0fbbbbf238d18aa9d7392d63fb8bd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onClick: {fileID: 8300000, guid: 7fca4e9aab932f4759403edb636d16d3, type: 3}
 --- !u!82 &527399482
 AudioSource:
   m_ObjectHideFlags: 0
@@ -459,7 +458,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1452845177}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
@@ -546,15 +545,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 948fee28d1eb331ca9da99b140ea5a99, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
